@@ -1,5 +1,6 @@
-import numpy as np
+"""Testing the constants function"""
 
+import numpy as np
 from simple_functions import pi
 
 
