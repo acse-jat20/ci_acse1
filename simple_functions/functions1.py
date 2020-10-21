@@ -14,4 +14,4 @@ def my_sum(iterable):
 @lru_cache(maxsize=None)  # Note: -> @cache in python >= 3.9
 def factorial(number):
     """Calculating a factorial"""
-    return number * factorial(number-1) if n else 1
+    return number * factorial(number-1) if number else 1
