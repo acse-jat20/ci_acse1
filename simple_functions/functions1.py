@@ -23,7 +23,10 @@ def solve_quadratic(a, b, c):
     """Solve a quadratic equation ax^2+bx+c=0 in the reals"""
     if b**2 - 4.0*a*c > 0:
         # two solutions
-        return ((-b - sqrt(b**2 - 4.0*a*c))/(2.0*a), (-b + sqrt(b**2 - 4.0*a*c))/(2.0*a))
+        return (
+            (-b - sqrt(b**2 - 4.0*a*c))/(2.0*a),
+            (-b + sqrt(b**2 - 4.0*a*c))/(2.0*a)
+        )
     elif b**2 - 4.0*a*c == 0:
         # one solution
         return -b/(2.0*a)
